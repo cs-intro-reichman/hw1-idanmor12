@@ -9,7 +9,7 @@ public class Bill3 {
 		int billPrice = Integer.parseInt(billInput);
 		double pricePerPerson = (double) billPrice/ 3;
 
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 
-		+ ": pay " + Math.ceil(pricePerPerson) + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1
+		+ ": pay " + Math.ceil(pricePerPerson) + " Shekels each");
 	}
 }
